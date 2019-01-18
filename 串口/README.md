@@ -73,6 +73,7 @@ read_len：read函数要求读取的数据的大小。
 
 测试：
   在同一个开发板上测试
+  0. 将ttyO1与ttyO2对接
   1. 打开两个终端
   2. 在终端1运行
   ./uart_test /dev/ttyO1
